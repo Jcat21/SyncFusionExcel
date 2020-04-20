@@ -7,8 +7,6 @@
   <title>Sine Test</title>
   <link href="material.css" rel="stylesheet" type="text/css"/>
   <script src="ej2.min.js" type="text/javascript"></script>
-  
-  import * as dataSource from 'SineTest.json';
 
 </head>
 
@@ -19,7 +17,7 @@
      sheets: [
        {
         name: 'Sine Test',
-        range: [{dataSource: (dataSource as any).defaultData }]
+        range: [{dataSource: 'SineTest.json' }]
        }
      ],
      enablePersistence: true,
